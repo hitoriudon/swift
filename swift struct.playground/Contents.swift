@@ -14,7 +14,9 @@ struct User{
 var user = User(nickname: "lee", age: 26)
 // 인스턴스네임 닷 프로퍼티네임으로 접근해서 값 직접 변경 가능
 user.nickname = "albert"
-// 함수도 위와 같이 접근
+// 함수도 위와 같이 접근 
 user.info()
 
 
+
+//깃 업데이트가 잘 될까?
