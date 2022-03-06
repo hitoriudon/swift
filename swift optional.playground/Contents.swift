@@ -9,6 +9,7 @@ print(optionalName!) // 강제적 옵셔널 바인딩(위험). 값이 nil인 변
 if let result = optionalName{
     print(result) // if문을 사용해서 옵셔널 바인딩을 하게 되면 if문 안에서만 벗겨낸 값인 result를 사용할 수 있음.
 } else{
+    print()
 
 }
 /*func test() {
