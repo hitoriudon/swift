@@ -1,7 +1,4 @@
 import UIKit
-import Darwin
-
-//shift+command+enter
 
 func hello(name: String, name2: String = "hi") -> String {
     return "hello "+name2
